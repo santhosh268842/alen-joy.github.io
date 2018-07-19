@@ -31,6 +31,11 @@ body,html {
 
 #collapse {
 	border:none;
+	padding-bottom:;
+}
+
+#collapse a{
+	padding-left:70%;
 }
 
 .navbar-fixed-top.scrolled {
@@ -56,7 +61,7 @@ body,html {
 
 .myicon {
 	position:fixed;
-	top:7%;
+	top:8%;
 	left:10%;
 	transform: translate(-50%, -50%);
 	height:70px;
@@ -65,7 +70,10 @@ body,html {
 	opacity:1;
 }
 	
-
+#navbar.myicon {
+	top:20% !important;
+}
+	
 .myname {
 	font-family:Dancing Script;
 	position:absolute;
