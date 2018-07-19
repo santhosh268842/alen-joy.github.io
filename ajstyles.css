@@ -55,13 +55,13 @@ body,html {
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	opacity:0.8;
+	opacity:0.9;
 	width:100%;
 }
 
 .myicon {
-	position:fixed;
-	top:9%;
+	position:absolute;
+	top:50%;
 	left:10%;
 	transform: translate(-50%, -50%);
 	height:70px;
