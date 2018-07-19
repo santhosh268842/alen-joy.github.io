@@ -29,6 +29,10 @@ body,html {
 	background-color:transparent;
 }
 
+#collapse {
+	border:none;
+}
+
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
@@ -47,11 +51,12 @@ body,html {
 	background-repeat:no-repeat;
 	background-size:cover;
 	opacity:0.8;
+	width:100%;
 }
 
 .myicon {
-	position:absolute;
-	top:50%;
+	position:fixed;
+	top:7%;
 	left:10%;
 	transform: translate(-50%, -50%);
 	height:70px;
