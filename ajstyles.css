@@ -17,8 +17,10 @@ body,html {
 
 #mynav a {
 	color:white;
-	font-size:17px;
+	font-size:15px;
 	font-family:helvetica;
+	padding-left:20px;
+	margin-right:20px;
 }
  
 #mynav a:hover {
@@ -123,7 +125,7 @@ body,html {
 
 footer {
 	background-color:#a6a6a6;
-	padding:15px 15px;
+	padding:25px 15px;
 }
 
 .social {
@@ -133,7 +135,7 @@ footer {
 	
 	
 .social-icon {
-	font-size:30px;
+	font-size:40px;
 	color:black;
 	padding:12px;
 }
@@ -181,7 +183,7 @@ footer {
 }
 
 .icon {
-	font-size:90px;
+	font-size:110px;
 	color:gray;
 	padding:30px;
 }
