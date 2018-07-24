@@ -210,12 +210,12 @@ footer {
 @media screen and (max-width: 680px) {
 	
 .myname {
-	font-size:34px;
+	font-size:32px;
 }
 
 .tag {
 	top:33%;
-	font-size:20px;
+	font-size:16px;
 }
 
 .icon {
@@ -226,7 +226,7 @@ footer {
 }	
 
 .myinfo {
-	font-size:18px;
+	font-size:20px;
 }
 
 .social-icon {
