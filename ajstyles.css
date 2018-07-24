@@ -82,7 +82,7 @@ body,html {
 	top:27%;
 	left: 50%;
     transform: translate(-50%, -50%);
-	font-size:5vw;
+	font-size:80px;
 	color:white;
 	letter-spacing:2px;
 	word-spacing:2px;
@@ -91,10 +91,10 @@ body,html {
 .tag {
 	font-family:Advent Pro;
 	position:absolute;
-	top:35%;
+	top:37%;
 	left: 50%;
     transform: translate(-50%, -50%);
-	font-size:2vw;
+	font-size:35px;
 	color:white;
 	letter-spacing:2px;
 	word-spacing:2px;
@@ -123,9 +123,30 @@ body,html {
 	font-size:23px;
 }
 
+.skill {
+	text-align:center;
+}
+
+.skills {
+	text-align:center;
+	color:#66a3ff;
+	font-family:helvetica;
+}
+
+.icon {
+	font-size:110px;
+	color:gray;
+	padding:30px;
+}
+
+
+.icon:hover {
+	color:gray;
+}
+
 footer {
 	background-color:#a6a6a6;
-	padding:25px 15px;
+	padding:15px 12px;
 }
 
 .social {
@@ -172,18 +193,54 @@ footer {
 	font-family:helvetica;
 }
 
-.skill {
-	text-align:center;
+
+@media screen and (max-width: 980px) {
+	
+	.myname {
+	font-size:60px;
 }
 
-.skills {
-	text-align:center;
-	color:#66a3ff;
-	font-family:helvetica;
+.tag {
+	top:35%;
+	font-size:35px;
+}
+
+}
+
+@media screen and (max-width: 680px) {
+	
+.myname {
+	font-size:37px;
+}
+
+.tag {
+	top:33%;
+	font-size:20px;
 }
 
 .icon {
 	font-size:110px;
 	color:gray;
 	padding:30px;
+	text-align:center;
+}	
+
+.myinfo {
+	font-size:20px;
 }
+
+.social-icon {
+	font-size:30px;
+}
+
+.foot {
+	font-size:14px;
+}
+
+}
+
+
+	
+
+
+
