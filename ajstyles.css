@@ -137,6 +137,7 @@ body,html {
 	font-size:110px;
 	color:gray;
 	padding:30px;
+	text-align:center;
 }
 
 
@@ -211,10 +212,11 @@ footer {
 	
 .myname {
 	font-size:30px;
+	
 }
 
 .tag {
-	top:33%;
+	top:32%;
 	font-size:15px;
 }
 
