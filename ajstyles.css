@@ -2,6 +2,7 @@ body,html {
 	height:100%;
 	margin:0;
 	color:white;
+	font-family: Montserrat;
 }
 
 .navbar {
@@ -22,7 +23,7 @@ body,html {
 	padding-left:20px;
 	margin-right:20px;
 }
- 
+
 #mynav a:hover {
 	text-decoration:underline;
 }
@@ -71,11 +72,11 @@ body,html {
 	border-radius:50%;
 	opacity:1;
 }
-	
+
 #navbar.myicon {
 	top:20% !important;
 }
-	
+
 .myname {
 	font-family:Dancing Script;
 	position:absolute;
@@ -107,42 +108,80 @@ body,html {
 	border-radius:50%;
 }
 
-.hi {
-	text-align:center;
-	padding-top:-10px;
-	letter-spacing:2px;
-	color:#66a3ff;
-	font-family:helvetica;
-	font-size:28px;
+.hello{
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-family: Montserrat;
 }
 
-.myinfo {
-	text-align:center;
-	color:black;
-	font-family:helvetica;
-	font-size:23px;
-}
-
-.skill {
-	text-align:center;
+.myInfo {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
 }
 
 .skills {
-	text-align:center;
-	color:#66a3ff;
-	font-family:helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
 }
 
-.icon {
-	font-size:110px;
-	color:gray;
-	padding:30px;
-	text-align:center;
+.skill-icon {
+  height:100px;
+  width: 100px;
 }
 
+.skill-name {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: black;
+}
 
-.icon:hover {
-	color:gray;
+.skill-row {
+  padding-left: 300px;
+  padding-right: 300px;
+
+}
+
+.projects {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.works {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+.work-head {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+.work-body {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+.work-link {
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.work-link:hover{
+  color:blue;
+  font-weight: 500;
 }
 
 footer {
@@ -153,9 +192,9 @@ footer {
 .social {
 	text-align:center;
 }
-	
-	
-	
+
+
+
 .social-icon {
 	font-size:40px;
 	color:black;
@@ -169,7 +208,7 @@ footer {
 .fa-instagram:hover {
 	color:#2C6A93;
 }
- 
+
 .fa-twitter:hover {
 	color:#55ACEE;
 }
@@ -182,7 +221,7 @@ footer {
 	color:#dd4b39;
 }
 
-  
+
 .fa-github:hover {
 	color:#444444;
 }
@@ -196,7 +235,7 @@ footer {
 
 
 @media screen and (max-width: 980px) {
-	
+
 	.myname {
 	font-size:60px;
 }
@@ -205,14 +244,34 @@ footer {
 	top:35%;
 	font-size:35px;
 }
+.skill-icon {
+	height:80px;
+	width: 80px;
+}
+.skill-name {
+	font-size: 13px;
+}
+
+.skill-row {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.works {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.social-icon {
+	font-size:32px;
+	padding:10px;
+}
 
 }
 
 @media screen and (max-width: 680px) {
-	
+
 .myname {
 	font-size:30px;
-	
+
 }
 
 .tag {
@@ -220,26 +279,30 @@ footer {
 	font-size:15px;
 }
 
-.icon {
-	font-size:110px;
-	color:gray;
-	padding:30px;
-	text-align:center;
-}	
+.skill-icon {
+	height:80px;
+	width: 80px;
+}
+.skill-name {
+	font-size: 13px;
+}
 
-
-.social-icon {
-	font-size:30px;
+.skill-row {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.works {
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .foot {
 	font-size:14px;
 }
 
+.social-icon {
+	font-size:30px;
+	padding:10px;
 }
 
-
-	
-
-
-
+}
