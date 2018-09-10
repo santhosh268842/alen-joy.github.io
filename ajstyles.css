@@ -245,8 +245,8 @@ footer {
 	font-size:35px;
 }
 .skill-icon {
-	height:80px;
-	width: 80px;
+	height:75px;
+	width: 75px;
 }
 .skill-name {
 	font-size: 13px;
@@ -280,11 +280,11 @@ footer {
 }
 
 .skill-icon {
-	height:80px;
-	width: 80px;
+	height:65px;
+	width: 65px;
 }
 .skill-name {
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .skill-row {
