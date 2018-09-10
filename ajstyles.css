@@ -132,12 +132,12 @@ body,html {
 }
 
 .skill-icon {
-  height:100px;
-  width: 100px;
+  height:80px;
+  width: 80px;
 }
 
 .skill-name {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   font-family: Montserrat;
   color: black;
